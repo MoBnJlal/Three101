@@ -96,9 +96,7 @@ function animate() {
   cube.rotation.y += 0.01; 
   
   //bot.position.x += 0.001; 	
-  //bot.position.z -= 0.001; 
-  //angle += 0
-  console.log(angle)
+  //bot.position.z -= 0.001;
   bot.position.x += Math.cos(angle) * 0.01;
   bot.position.z += Math.sin(angle) * 0.01;
   bot.rotation.y = -angle //-= 0.01//angle
